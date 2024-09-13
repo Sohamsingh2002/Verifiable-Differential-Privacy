@@ -1,24 +1,34 @@
-####This module contains an implementation of a Verifiable Differential Privacy (VerDP) verifier using Pinocchio Proof Protocol, VFuzz Compiler, and ZKProof. It verifies the correctness and privacy of computations performed on databases while maintaining differential privacy.
-The complete code is present in single .ipynb file named "Verification.ipynb".Simply execute that notebook.
+# Verifiable Differential Privacy (VerDP) Verifier
 
-##Requirements
-Python 3.7 or higher
+This module contains an implementation of a Verifiable Differential Privacy (VerDP) verifier using the Pinocchio Proof Protocol, VFuzz Compiler, and ZKProof. It verifies the correctness and privacy of computations performed on databases while maintaining differential privacy.
 
-##Libraries:
-numpy==1.20.3
-sqlparse==0.4.2
-matplotlib==3.4.2
-pandas==1.2.4
-scipy==1.6.3                    
-hashlib
-libiop (need not to be installed , will be downloaded and built from source)
-os
-re
+The complete code is available in a single Jupyter Notebook named **Verification.ipynb**. To get started, simply execute that notebook.
 
-To install the required libraries, you can explore (https://pypi.org/project/pip/) with the following command:
+## Requirements
 
-To install the required libraries, you can use pip:
+- Python 3.7 or higher
+
+## Libraries
+
+The following libraries are required:
+
+- `numpy==1.20.3`
+- `sqlparse==0.4.2`
+- `matplotlib==3.4.2`
+- `pandas==1.2.4`
+- `scipy==1.6.3`
+- `hashlib`
+- `libiop` (will be downloaded and built from source, no need for manual installation)
+- `os`
+- `re`
+
+### Installation
+
+To install the required libraries, use the following command:
+
+```bash
 pip install numpy sqlparse matplotlib pandas scipy
+
 
 ##Tech Stack:
 Python
